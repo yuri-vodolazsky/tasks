@@ -27,8 +27,10 @@ To be sure that you are in the right place you can type:
 
 On my computer output of the command above is following: 
 
-```yuri@yuri-Lenovo-G580:~/proj/tasks$ pwd
-/home/yuri/proj/tasks```
+```
+yuri@yuri-Lenovo-G580:~/proj/tasks$ pwd
+/home/yuri/proj/tasks
+```
 
 
 ## Setup WEB server
@@ -41,7 +43,8 @@ Please run following command in terminal, which `i`nstall libraries required for
 We ask `n`ode `p`ackage `m`anager to `i`nstall project's dependecies (libraries which are just programs written by other coders, which we are going to use in order to do not reinvent a wheel).
 You can ensure that required packages have been downloaded and saved in current folder again by using `ls` command already mentioned earlier. In my case output is following: 
 
-```yuri@yuri-Lenovo-G580:~/proj/tasks$ ls
+```
+yuri@yuri-Lenovo-G580:~/proj/tasks$ ls
 index.html  node_modules  package.json  package-lock.json  README.md  task1.html  task1-modified.html
 ```
 
@@ -53,7 +56,8 @@ This can be done using following command:
 
 Which should produce following output:
 
-```yuri@yuri-Lenovo-G580:~/proj/tasks$ ./node_modules/.bin/http-server 
+```
+yuri@yuri-Lenovo-G580:~/proj/tasks$ ./node_modules/.bin/http-server 
 Starting up http-server, serving ./
 Available on:
   http://127.0.0.1:8080
