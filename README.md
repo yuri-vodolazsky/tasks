@@ -41,7 +41,7 @@ Please run following command in terminal, which `i`nstall libraries required for
 `npm i`
 
 We ask `n`ode `p`ackage `m`anager to `i`nstall project's dependecies (libraries which are just programs written by other coders, which we are going to use in order to do not reinvent a wheel).
-You can ensure that required packages have been downloaded and saved in current folder again by using `ls` command already mentioned earlier. In my case output is following: 
+You can ensure that required packages have been downloaded and saved in current folder again by using `ls` command already mentioned earlier. You should see new directory `node_modules`, like in example below: 
 
 ```
 yuri@yuri-Lenovo-G580:~/proj/tasks$ ls
@@ -68,7 +68,9 @@ Available on:
 Hit CTRL-C to stop the server
 ```
 
-Open first URL above (http://127.0.0.1:8080) in the browser and go to the first task
+Open first URL above (http://127.0.0.1:8080) in the browser and go to the first task.
+
+To stop server press `Ctrl+c` in console like suggested above.
 
 
 
